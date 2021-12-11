@@ -1,0 +1,97 @@
+/* See /fonts/credit.txt */
+
+@font-face {
+  font-family: Lucette;
+  src: url("/fonts/Lucette-Regular.woff2");
+}
+
+@font-face {
+  font-family: Lucette;
+  font-style: italic;
+  src: url("/fonts/Lucette-Regular-Italic.woff2");
+}
+
+@font-face {
+  font-family: Avara;
+  font-weight: bold;
+  src: url("/fonts/Avara-Bold.woff2");
+}
+
+@font-face {
+  font-family: Avara;
+  /*Why be bold when you could be bolder?*/
+  font-weight: bolder;
+  /*But because most browsers understand numbers better than semantics...*/
+  font-weight: 900;
+  src: url("/fonts/Avara-Black.woff2");
+}
+
+@font-face {
+  font-family: Avara;
+  font-style: italic;
+  src: url("/fonts/Avara-BoldItalic.woff2");
+}
+
+:root {
+  --background: #fff;
+  --text: #000;
+}
+
+* {
+  font-family: Lucette, serif;
+  color: var(--text);
+}
+
+body {
+  background-color: var(--background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Avara;
+}
+
+h1 {
+  padding-top: 24px;
+}
+
+h2 {
+  padding-top: 34px;
+  font-weight: bolder;
+  font-weight: 900;
+}
+
+strong,
+b {
+  font-family: Avara;
+  font-weight: bolder;
+  font-weight: 900;
+}
+
+ul {
+  list-style: georgian;
+}
+
+button {
+  background: var(--background);
+  box-shadow: 0px 2px 2px 2px var(--text);
+  padding: 5px 10px;
+  border: 2px solid var(--text);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p,
+button,
+i,
+li {
+  font-size: 22px;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 800px;
+}
