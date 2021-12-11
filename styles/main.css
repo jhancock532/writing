@@ -2,19 +2,19 @@
 
 @font-face {
   font-family: Lucette;
-  src: url("/fonts/Lucette-Regular.woff2");
+  src: url("../fonts/Lucette-Regular.woff2");
 }
 
 @font-face {
   font-family: Lucette;
   font-style: italic;
-  src: url("/fonts/Lucette-Regular-Italic.woff2");
+  src: url("../fonts/Lucette-Regular-Italic.woff2");
 }
 
 @font-face {
   font-family: Avara;
   font-weight: bold;
-  src: url("/fonts/Avara-Bold.woff2");
+  src: url("../fonts/Avara-Bold.woff2");
 }
 
 @font-face {
@@ -23,13 +23,13 @@
   font-weight: bolder;
   /*But because most browsers understand numbers better than semantics...*/
   font-weight: 900;
-  src: url("/fonts/Avara-Black.woff2");
+  src: url("../fonts/Avara-Black.woff2");
 }
 
 @font-face {
   font-family: Avara;
   font-style: italic;
-  src: url("/fonts/Avara-BoldItalic.woff2");
+  src: url("../fonts/Avara-BoldItalic.woff2");
 }
 
 :root {
