@@ -84,14 +84,67 @@ button {
   cursor: pointer;
 }
 
+footer {
+  font-size: 24px;
+  font-style: italic;
+  margin: 60px 0 100px 0;
+}
+
 p,
 button,
 i,
 li {
-  font-size: 22px;
+  font-size: 24px;
 }
 
+img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+
+/*  Generics  */
+.bold {
+  font-family: Avara;
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/*  Specifics  */
 #container {
   margin: 0 auto;
   max-width: 800px;
+}
+
+#timer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: var(--background);
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 150px;
+  text-align: center;
+}
+
+#timer__time {
+  font-size: 48px;
+  font-family: Avara;
+}
+
+#timer__toggle {
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: center;
+}
+
+#timer__toggle > p {
+  margin: 0;
 }

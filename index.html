@@ -1,80 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>James's Notes</title>
   <link rel="stylesheet" href="./styles/main.css">
-
-  <script>
-    let lightMode = true;
-    function toggleDarkMode() {
-      let root = document.documentElement;
-      let button = document.getElementById("darkmodeToggle");
-      if (lightMode) {
-        root.style.setProperty('--background', '#000');
-        root.style.setProperty('--text', '#fff');
-        button.innerHTML = "Light mode please...";
-      } else {
-        root.style.setProperty('--background', '#fff');
-        root.style.setProperty('--text', '#000');
-        button.innerHTML = "Dark mode please...";
-      }
-      lightMode = !lightMode;
-    }
-  </script>
+  <script defer src="./scripts/main.js"></script>
 </head>
 
 <body>
   <div id="container">
-    <h1>Writing, Notes</h1>
+    <h1>Introduction</h1>
 
     <p>
-      Welcome to my website! No fancy preperation of code or frameworks here,
-      just a playful exploration of writing & my interests.
-      <!--Now Playing: Amazing, Pt. 2, by Bohdi. 
-        Imagining what could be, openly, wholeheartedly.-->
+      Welcome to my website! Nothing too fancy, a blog of reflections, short essays, odd ideas and investigations.
+    </p>
+    <p>
+      I'm interested in stories, the internet and our attention.
+      I wrote a dissertation on <a
+        href="https://www.academia.edu/54872804/View_Source_Can_Development_Tools_Help_Participants_Engage_With_Creative_Websites">
+        how net art is like a performance</a>, and what happens when <a
+        href="https://developer.mozilla.org/en-US/docs/Glossary/Developer_Tools">Developer Tools</a> become a part of
+      this.
     </p>
     <p>
       Thank you for stopping by. Most visitors that come here don't say much,
-      but I appreciate you nonetheless :)
+      but I appreciate you nonetheless.
     </p>
 
-    <button id="darkmodeToggle" onclick="toggleDarkMode()">
+    <button id="darkmodeToggle">
       Dark mode please...
     </button>
 
-    <h2>Ambition</h2>
-    <!--Now Playing: Ambition, by Professor Kliq. 
-      A broody piano fame fantasy exploration.-->
-    <ul>
-      <li>To write for the joy of writing.</li>
-      <li>To read for the joy of reading.</li>
-      <li>To rest often, and appreciate life.</li>
-    </ul>
-    <p>
-      I would like to thank Joel Haver, for "Thanks for watching my film"
-      and @dhrupadkarwa, for sharing his ambitions of learning and joy for his new Substack, Lit Visions.
-    </p>
-
     <h2>Philosophy</h2>
-    <p>Write clearly, with good form and pace, respecting others and aiding their understanding.</p>
-    <p>Don't make it perfect, or you'll burn out.</p>
-    <p>I'd like to help others manage their time while they engage with this site, so I will add a timer.</p>
-
-    <h2>Some German Harry Potter Translations</h2>
-    <i>Harry Potter und der Orden des Phönix</i>
-    <ul>
-      <li>Scourgify -> Ratzeputz ("Guess / Approx Clean"?)</li>
-      <li>Stupify -> Stupor</li>
-      <li>Professor Grubbly Plank -> Professor Raue-Pritsche ("Rough Plank")</li>
-      <li>Quibbler -> Klitterer (krittlen - to find fault, quibble)</li>
-    </ul>
-    <p>Occasionally, o's disappear. E.g.</p>
-    <ul>
-      <li>Incarcerous -> Incarcerus</li>
-      <li>Hermione -> Hermine</li>
-    </ul>
+    <p><span class="bold">Write clearly</span>, with good form and pace, respecting others and aiding their
+      understanding.</p>
+    <p><span class="bold">Take it easy</span>, don't stress about targets or deadlines.</p>
+    <p><span class="bold">Good enough is good enough.</span></p>
   </div>
+
+
 </body>
 
 </html>
